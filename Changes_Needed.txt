@@ -1,0 +1,7 @@
+TODO
+resolve initiative ties
+resolve identical names
+
+BUGS:
+changing initiative effectively gives a combatant an extra turn, as the change takes place during the current round instead of the next round
+names of characters added after combat has started are in all lower case
