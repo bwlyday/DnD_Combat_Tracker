@@ -5,3 +5,12 @@ resolve identical names
 BUGS:
 changing initiative effectively gives a combatant an extra turn, as the change takes place during the current round instead of the next round
 names of characters added after combat has started are in all lower case
+
+Resolution:
+have two seperate lists, one with the initiative order and one that holds the current order in the round
+change the initiative in the true order list and resort it. Don't resort current order list
+copy true order list over current order list at the end of each round
+to keep track of rounds
+1)store name of first person in current order list at the start of the round
+2)when that name is at the top of the list again, the round is over.
+3)Copy the true order list.
