@@ -29,21 +29,32 @@ def remove(command):
         tracker.remove_combatant(subject)
 
 def add(command):
-    hp = input("HP: ")
+    max_hp = input("Max HP: ")
+    while max_hp.isdigit() == False:
+        print("Please input a valid Max HP.")
+        max_hp = input("Max HP: ")
+    max_hp = int(max_hp)
+
+    hp = input("Current HP: ")
     while hp.isdigit() == False:
         print("Please input a valid HP.")
         hp = input("HP: ")
+    hp = int(hp)
+
     ac = input("AC: ")
     while ac.isdigit() == False:
         print("Please input a valid ac.")
         ac = input("AC: ")
-    init = input("Initiative: ")
-    while init.isdigit() == False:
-        print("Please input a valid initiative.")
-        init = input("AC: ")
+    ac = int(ac)
 
-    new = Combatant(command[1], int(hp) , int(ac), int(init))
-    tracker.insert_combatant(new)
+    init = input("Place in Initiative List: ")
+    while init.isdigit() == False:
+        print("Please input a valid place.")
+        init = input("Place: ")
+    init = int(init)
+
+    new = Combatant(command[1], max_hp, hp, ac, 0) #TODO add meaningful initiative instead of 0
+    tracker.insert_combatant(init, new)
 
 def change_ac(command):
     subject = tracker.find_combatant(command[1])
@@ -57,9 +68,9 @@ def change_init(command):
     if subject == None:
         print(no_combatant)
     else:
-        subject.change_init(command[2])
+        # subject.change_init(command[2])
         tracker.remove_combatant(subject)
-        tracker.insert_combatant(subject)
+        tracker.insert_combatant(command[2], subject)
 
 def help():
     print(Parser.__help__)
@@ -70,8 +81,6 @@ if __name__ == '__main__':
     tracker.add_combatants()
     #tracker.add_test_combatants()
     tracker.report()
-
-
 
     line = input()
     while(line.lower() != "quit"):

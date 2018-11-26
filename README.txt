@@ -1,4 +1,4 @@
-6 October 2018 v1.0
+17 November 2018 v1.0 beta
 
 Hello User!
 

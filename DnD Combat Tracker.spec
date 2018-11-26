@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['DnD Combat Tracker.py'],
-             pathex=['C:\\Users\\bwlyd\\PycharmProjects\\Combat_Tracker'],
+             pathex=['C:\\Users\\bwlyd\\Documents\\GitHub\\DnD_Combat_Tracker'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -19,18 +19,14 @@ pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
           a.scripts,
+          a.binaries,
+          a.zipfiles,
+          a.datas,
           [],
-          exclude_binaries=True,
           name='DnD Combat Tracker',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
+          runtime_tmpdir=None,
           console=True )
-coll = COLLECT(exe,
-               a.binaries,
-               a.zipfiles,
-               a.datas,
-               strip=False,
-               upx=True,
-               name='DnD Combat Tracker')

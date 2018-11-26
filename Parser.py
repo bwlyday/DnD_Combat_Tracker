@@ -17,12 +17,29 @@ class Parser:
     change_init = "change initiative"
     help = "help"
     next = "next"
+    back = "back"
 
     damage_usage = "Damage command has 2 inputs: name and damage value. For example, damage Nikephoros 10 deals 10 damage to Nikephoros.\n"
 
-    __help__ = "Commands:\ndamage [name] [amount]\nheal [name] [amount]\nremove [name]\nadd [name]\nchange ac [name] [new ac]\nchange initiative [name] [new initiative]\nnext\nquit\n"
+    __help__ = "Commands:\ndamage [name] [amount]\n" \
+               "\tRemoves [amount] from combatant's current HP\n\n" \
+               "heal [name] [amount]\n" \
+               "\tAdds [amount] HP to a combatant's current HP\n\n" \
+               "remove [name]\n" \
+               "\tremoves a combatant from the initiative list\n\n" \
+               "add [name]\n" \
+               "\tadds a combatant to a specified place in the initiative list\n\n" \
+               "change ac [name] [new ac]\n\n" \
+               "\treplaces a combatant's AC with the new AC\n\n" \
+               "change initiative [name] [new place in initiative]\n" \
+               "\tChanges a combatant's place in the initiative list\n\n" \
+               "next\n" \
+               "\tMoves to next combatant's turn\n\n" \
+               "quit\n" \
+               "\texits DnD Combat Tracker\n"
 
-def parse_line(line):
+def parse_line(the_line):
+    line = the_line.lstrip().rstrip()
     command = get_word(line)
     if command == Parser.help:
         return [command]
@@ -72,6 +89,7 @@ def command_remove_add(command, line):
 
 
 def command_change(command, line):
+    amount = 0
     change = get_word(line[len(command):])
     if (change.lower() != "ac"):
         if (change.lower() != "initiative"):
@@ -82,10 +100,9 @@ def command_change(command, line):
     subject = get_word(line[len(command):])  # doesn't need +1 because get_word ignores initial white space
     remain = line[len(command) + 1:]  # +1 to account for white space
     remain = remain[len(subject) + 1:]  # +1 to account for white space
-    if remain.isdigit():
+    try:
         amount = int(remain)
-    else:
-        print("New {} must be a number".format(change))
+    except:
+        print("New {} must be a whole number".format(change))
         return None
-    amount = int(remain)
     return [command, subject, amount]
