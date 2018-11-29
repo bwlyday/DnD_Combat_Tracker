@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f12b249-f5ef-406b-87c8-bf0471980c22" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Tracker.py" afterPath="$PROJECT_DIR$/Tracker.py" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/Analysis-00.toc" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/Analysis-00.toc" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/EXE-00.toc" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/EXE-00.toc" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/PKG-00.pkg" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/PKG-00.pkg" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/PKG-00.toc" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/PKG-00.toc" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/PYZ-00.pyz" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/PYZ-00.pyz" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/PYZ-00.toc" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/PYZ-00.toc" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/base_library.zip" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/base_library.zip" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/warn-DnD Combat Tracker.txt" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/warn-DnD Combat Tracker.txt" />
-      <change beforePath="$PROJECT_DIR$/build/DnD Combat Tracker/xref-DnD Combat Tracker.html" afterPath="$PROJECT_DIR$/build/DnD Combat Tracker/xref-DnD Combat Tracker.html" />
-      <change beforePath="$PROJECT_DIR$/dist/DnD Combat Tracker.exe" afterPath="$PROJECT_DIR$/dist/DnD Combat Tracker.exe" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Tracker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tracker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="362">
+              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,16 +28,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="861">
               <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-              <folding />
+              <folding>
+                <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DnD Combat Tracker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DnD Combat Tracker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DnD Combat Tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="362">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -58,8 +50,8 @@
       <file leaf-file-name="Changes_Needed.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Changes_Needed.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -168,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,6 +172,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,13 +264,13 @@
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30406147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30406147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39736554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -300,19 +292,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -325,7 +309,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +345,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,7 +381,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,7 +417,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,7 +453,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,7 +489,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,7 +525,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -563,7 +561,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +597,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,7 +633,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,16 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DnD Combat Tracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Combatant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -691,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Changes_Needed.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="378">
+          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -701,15 +695,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1543477606431" expanded="true" signature="1579:1617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="362">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="773" column="0" lean-forward="false" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD Combat Tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

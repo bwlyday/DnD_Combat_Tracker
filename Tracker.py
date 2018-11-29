@@ -20,6 +20,10 @@ class Tracker:
         for i in range(0, int(num_combatants)):
             name = input("Name:")
             name = name.lower().rstrip().lstrip()
+            while " " in name:
+                print("Name cannot contain spaces.")
+                name = input("Name:")
+                name = name.lower().lstrip().rstrip()
 
             max_hp = input("Max HP: ")
             while max_hp.isdigit() == False:
