@@ -1,4 +1,4 @@
-28 November 2018 v1.0.4 beta
+29 November 2018 v1.1.0 beta
 
 Hello User!
 
@@ -7,7 +7,7 @@ DnD Combat Tracker allows you to track a large amount of combatants in the popul
 table top game Dungeons & Dragons (5e), giving you control over their HP, AC, and Initiative.
 You can also add and remove combatants as needed. It will also keep track of whose
 turn it is for you. All you have to do is type "next" to tell it the current combatant's
-turn is over.
+turn is over. For a detailed list of commands, just type "help" while the program is running.
 
 If you want information on how to use any of the commands, just type "help"
 while the program is running. It will give you a list of commands and their arguments
