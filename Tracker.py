@@ -105,7 +105,7 @@ class Tracker:
         # uses index-1 because the list the DM sees does not start at 0
         # i.e. the DM would say say to insert at 1, which is combatants[0], not combatants[1]
 
-
+    # removes a combatant from the initiative list
     def remove_combatant(self, combatant):
         self.combatants.remove(combatant)
         self.num_com -= 1
@@ -114,12 +114,19 @@ class Tracker:
     def get_combatant(self, i):
         return self.combatants[i]
 
-
+    # called by the "next" command
+    # advances combat by 1 turn
     def take_turn(self):
         comb = self.combatants[0]
         self.combatants.remove(comb)
         self.combatants.append(comb)
 
+    # called by the "back" command
+    # goes back 1 turn in combat
+    def back(self):
+        comb = self.combatants[self.num_com - 1]
+        self.combatants.remove(comb)
+        self.combatants.insert(0, comb)
 
     #prints the current turn order
     def report(self):

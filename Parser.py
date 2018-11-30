@@ -35,6 +35,8 @@ class Parser:
                "\tChanges a combatant's place in the initiative list\n\n" \
                "next\n" \
                "\tMoves to next combatant's turn\n\n" \
+                "back\n" \
+               "\tGoes back to the previous combatant's turn\n" \
                "quit\n" \
                "\texits DnD Combat Tracker\n"
 
@@ -50,6 +52,8 @@ def parse_line(the_line):
     elif command == Parser.change:
         return command_change(command, line)
     elif command == Parser.next:
+        return [command]
+    elif command == Parser.back:
         return [command]
     print("Unknown Command")
     return [None, None, None]

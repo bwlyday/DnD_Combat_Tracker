@@ -103,6 +103,8 @@ if __name__ == '__main__':
             add(command)
         elif command[0] == Parser.next:
             tracker.take_turn()
+        elif command[0] == Parser.back:
+            tracker.back()
 
         tracker.report()
         line = input()
