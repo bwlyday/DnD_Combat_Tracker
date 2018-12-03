@@ -25,17 +25,17 @@ class Tracker:
                 name = input("Name:")
                 name = name.lower().lstrip().rstrip()
 
-            max_hp = input("Max HP: ")
-            while max_hp.isdigit() == False:
-                print("Please input a valid Max HP.")
-                max_hp = input("Max HP: ")
-            max_hp = int(max_hp)
-
             hp = input("Current HP: ")
             while hp.isdigit() == False:
                 print("Please input a valid HP.")
                 hp = input("HP: ")
             hp = int(hp)
+
+            max_hp = input("Max HP: ")
+            while max_hp.isdigit() == False:
+                print("Please input a valid Max HP.")
+                max_hp = input("Max HP: ")
+            max_hp = int(max_hp)
 
             ac = input("AC: ")
             while ac.isdigit() == False:
